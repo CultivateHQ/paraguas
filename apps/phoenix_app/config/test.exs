@@ -8,3 +8,9 @@ config :phoenix_app, PhoenixAppWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+config :phoenix_app, authentication: [
+  username: "user",
+  password: "password",
+  realm:    "Development Realm"
+]
