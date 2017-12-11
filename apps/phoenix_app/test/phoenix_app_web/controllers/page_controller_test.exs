@@ -9,7 +9,7 @@ defmodule PhoenixAppWeb.PageControllerTest do
 
     test "with valid credentials" do
       conn = get conn_with_basic_auth(), "/"
-      assert html_response(conn, 200) =~ "Welcome to Phoenix!"
+      assert html_response(conn, 200) =~ "Name"
     end
   end
 
