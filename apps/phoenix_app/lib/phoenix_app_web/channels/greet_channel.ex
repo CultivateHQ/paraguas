@@ -5,7 +5,7 @@ defmodule PhoenixApp.GreetChannel do
     {:ok, socket}
   end
 
-  def greet("room:greet", name, socket) do
+  def greet("room:greet", name, _socket) do
     greet = Greeter.hello(name)
     {:ok, greet}
   end
