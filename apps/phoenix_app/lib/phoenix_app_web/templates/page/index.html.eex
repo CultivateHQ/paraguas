@@ -4,3 +4,10 @@
   <button id="greet" name="greet">Greet</button>
   <h2 id="greeting"></h2>
 </div>
+<div class="jumbotron">
+  <h3><%= assigns[:integer_number] %></h3>
+  <p>
+    Is it an integer?
+    <%= is_integer(assigns[:integer_number]) %>
+  </p>
+</div>

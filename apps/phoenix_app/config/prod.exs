@@ -31,4 +31,4 @@ config :phoenix_app, authentication: [
 
 config :logger, level: :info
 
-import_config "prod.secret.exs"
+config :phoenix_app, sombrilla: "${SOMBRILLA}"

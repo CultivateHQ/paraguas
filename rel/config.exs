@@ -51,4 +51,5 @@ release :paraguas do
     greeter: :permanent,
     phoenix_app: :permanent
   ]
+  set vm_args: "rel/vm.args"
 end

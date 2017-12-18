@@ -53,3 +53,5 @@ config :phoenix_app, authentication: [
   password: "password",
   realm:    "Development Realm"
 ]
+
+config :phoenix_app, sombrilla: 42

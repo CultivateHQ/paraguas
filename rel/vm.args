@@ -1,0 +1,8 @@
+## Name of the node
+-name <%= release_name %>@127.0.0.1
+
+## Node cookie, used for distribution
+-setcookie ${NODE_COOKIE}
+
+## Application configuration with REPLACE_OS_VARS=true
+-phoenix_app sombrilla ${SOMBRILLA}
